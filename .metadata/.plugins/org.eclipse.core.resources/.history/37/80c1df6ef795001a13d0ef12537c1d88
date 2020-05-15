@@ -1,0 +1,28 @@
+package _1;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Student st1 = new Student("손오공", "1682");
+		Student st2 = new Student("저팔계", "1672");
+		Student st3 = new Student("사오정", "1813");
+		
+		ArrayList<Student> list = new ArrayList<>();
+		
+		list.add(st1);
+		list.add(st2);
+		list.add(st3);
+		
+		for(Student stu : list) {
+			System.out.println(stu.getName());
+			System.out.println(stu.getNo());
+		}
+		
+		Scanner scan = new Scanner(System.in);
+	}
+	
+
+}
