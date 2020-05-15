@@ -6,9 +6,11 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
+		//학생 데이터
 		Student st1 = new Student("손오공", "1682");
 		Student st2 = new Student("저팔계", "1672");
 		Student st3 = new Student("사오정", "1813");
+		
 		
 		ArrayList<Student> list = new ArrayList<>();
 		
