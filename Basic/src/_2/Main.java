@@ -12,7 +12,6 @@ public class Main {
 		
 		for(int i=3; i<100; i++) {
 			arr[i] = arr[i-1] + arr[i-2];
-//			System.out.println("i : "+i+", no : "+arr[i]);
 		}
 		for(int i=1; i<=10; i++) {
 			System.out.print(arr[i]+" ");
